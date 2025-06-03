@@ -3,18 +3,27 @@ using UnityEngine;
 public class MirrorFollow : MonoBehaviour
 {
     public RectTransform source;
+    public float smoothSpeed = 5f;  // 부드럽게 회전하는 속도
+
+    private float targetAngle;
 
     void Update()
     {
         if (source == null) return;
 
-        // 버튼의 Z축 회전 각도 얻기 (0~360으로 정규화)
+        // 버튼 Z축 각도
         float zAngle = source.eulerAngles.z;
 
-        // 가장 가까운 90도 각도로 반올림
-        float snappedAngle = Mathf.Round(zAngle / 90f) * 90f;
+        // 목표 회전 각도 (90도 단위로 반올림)
+        targetAngle = Mathf.Round(zAngle / 90f) * 90f;
 
-        // 거울 이미지를 스냅된 각도로 회전
-        transform.rotation = Quaternion.Euler(0f, 0f, snappedAngle);
+        // 현재 회전 각도
+        float currentAngle = transform.eulerAngles.z;
+
+        // 부드럽게 회전
+        float newAngle = Mathf.LerpAngle(currentAngle, targetAngle, Time.deltaTime * smoothSpeed);
+
+        // 회전 적용
+        transform.rotation = Quaternion.Euler(0f, 0f, newAngle);
     }
 }

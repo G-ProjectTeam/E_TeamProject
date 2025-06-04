@@ -1,28 +1,12 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class ButtonDragRotate : MonoBehaviour, IBeginDragHandler, IDragHandler
+public class ButtonRotateOnClick : MonoBehaviour, IPointerClickHandler
 {
-    private float startAngle;
+    public float rotationStep = 45f; // 클릭 시 회전 각도
 
-    public void OnBeginDrag(PointerEventData eventData)
+    public void OnPointerClick(PointerEventData eventData)
     {
-        startAngle = GetAngle(eventData.position);
-    }
-
-    public void OnDrag(PointerEventData eventData)
-    {
-        float currentAngle = GetAngle(eventData.position);
-        float deltaAngle = currentAngle - startAngle;
-
-        transform.Rotate(0f, 0f, deltaAngle); // 버튼 이미지 회전
-        startAngle = currentAngle; // 다음 드래그를 위해 시작 각도 갱신
-    }
-
-    private float GetAngle(Vector2 screenPos)
-    {
-        Vector2 center = RectTransformUtility.WorldToScreenPoint(null, transform.position);
-        Vector2 dir = screenPos - center;
-        return Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        transform.Rotate(0f, 0f, rotationStep); // Z축으로 45도 회전
     }
 }

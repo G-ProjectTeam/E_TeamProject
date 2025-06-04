@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\user\\My project (2)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|c:\\users\\user\\my project (2)\\assets\\script\\mirrorfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\mirrorfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\user\\My project (2)\\assets\\script\\buttondragrotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\buttondragrotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|C:\\Users\\user\\My project (2)\\assets\\script\\dragrotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\dragrotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|c:\\users\\user\\my project (2)\\assets\\script\\mirrorfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\mirrorfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,29 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DragRotate.cs",
-              "DocumentMoniker": "C:\\Users\\user\\My project (2)\\Assets\\script\\DragRotate.cs",
-              "RelativeDocumentMoniker": "Assets\\script\\DragRotate.cs",
-              "ToolTip": "C:\\Users\\user\\My project (2)\\Assets\\script\\DragRotate.cs",
-              "RelativeToolTip": "Assets\\script\\DragRotate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ButtonDragRotate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\My project (2)\\Assets\\script\\ButtonDragRotate.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\ButtonDragRotate.cs",
+              "ToolTip": "C:\\Users\\user\\My project (2)\\Assets\\script\\ButtonDragRotate.cs",
+              "RelativeToolTip": "Assets\\script\\ButtonDragRotate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T15:35:06.302Z"
+              "WhenOpened": "2025-06-03T13:45:36.964Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MirrorFollow.cs",
               "DocumentMoniker": "C:\\Users\\user\\My project (2)\\Assets\\script\\MirrorFollow.cs",
               "RelativeDocumentMoniker": "Assets\\script\\MirrorFollow.cs",
               "ToolTip": "C:\\Users\\user\\My project (2)\\Assets\\script\\MirrorFollow.cs",
               "RelativeToolTip": "Assets\\script\\MirrorFollow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T15:21:25.027Z",
               "EditorCaption": ""
